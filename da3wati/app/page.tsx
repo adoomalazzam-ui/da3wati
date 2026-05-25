@@ -1,5 +1,16 @@
-import WeddingInvitation from "@/components/WeddingInvitation";
-
-export default function Home() {
-  return <WeddingInvitation />;
+export default function HomePage() {
+  return (
+    <main
+      style={{
+        minHeight: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        fontSize: "40px",
+        fontWeight: "bold",
+      }}
+    >
+      Da3wati Working ✅
+    </main>
+  );
 }
